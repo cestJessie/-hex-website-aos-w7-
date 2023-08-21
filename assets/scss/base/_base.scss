@@ -1,0 +1,20 @@
+body {
+  line-height: 1.5;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.material-icons {
+  /* 垂直對齊文字的下標 */
+  vertical-align: sub;
+}

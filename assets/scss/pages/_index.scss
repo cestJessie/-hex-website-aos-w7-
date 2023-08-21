@@ -1,0 +1,55 @@
+.w-526 {
+  max-width: 526px;
+}
+
+.w-746 {
+  width: 746px;
+}
+
+// Banner 
+.banner__link {
+  transition: ease-in-out 0.2s;
+  background: $secondary;
+
+  &:hover {
+    background: $tertiary;
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Introduction */
+.intro__area {
+  background-image: url(../images/background-img.png);
+  @include bg-img-cover;
+}
+
+.skills__card {
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  width: calc(50% - 12px);
+}
+
+/* Contact me */
+.contact__info {
+  background: linear-gradient(to bottom,
+      rgba(5, 0, 20, 1),
+      rgba(1, 2, 30, 0.89));
+}
+
+
+.icon__link {
+  width: 162px;
+  height: 162px;
+  transition: ease-in-out 0.4s;
+  border-radius: 40px;
+
+  &:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/*  My projects */
+.projects__img__hover:hover {
+  opacity: 0.7;
+}

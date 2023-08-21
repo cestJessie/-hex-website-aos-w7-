@@ -1,0 +1,6 @@
+nav li {
+  max-width: 306px;
+  & a{
+    transition: ease-in-out 0.2s;
+  }
+}
